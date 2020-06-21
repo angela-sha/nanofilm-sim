@@ -1,0 +1,5 @@
+The main two python processes that are run are "runner.py" and "analyzer.py".
+
+runner.py uses simulator.py and other simulator subclasses (simulatorRL, for example) to run a simulation, producing a .xyz trajectory file.
+
+analyzer.py takes different analyzing classes (such as parse_xyz.py, lattice.py, process_z.py) to produce the desired data. Modify analyzer.py with class functions to output graphs or images.
